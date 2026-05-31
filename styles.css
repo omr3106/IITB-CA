@@ -1,25 +1,25 @@
 :root {
-  --bg-void: #F7F4FF;
-  --bg-deep: #F1ECFF;
+  --bg-void: #FF8A3D;
+  --bg-deep: #FFAD70;
   --bg-surface: #FFFFFF;
-  --bg-raised: #F5F0FF;
-  --border: rgba(125,211,252,0.24);
-  --border-bright: rgba(125,211,252,0.48);
-  --cyan: #4DE2FF;
-  --cyan-dim: rgba(77,226,255,0.12);
-  --cyan-glow: rgba(77,226,255,0.28);
-  --purple: #C17DFF;
-  --purple-dim: rgba(193,125,255,0.12);
-  --purple-glow: rgba(193,125,255,0.26);
-  --gold: #FFD66B;
-  --text: #2C2B42;
-  --text-muted: #6A618A;
-  --text-dim: #8E87A8;
+  --bg-raised: #FFD8A7;
+  --border: rgba(255,255,255,0.28);
+  --border-bright: rgba(255,255,255,0.48);
+  --cyan: #112B56;
+  --cyan-dim: rgba(17,43,86,0.14);
+  --cyan-glow: rgba(17,43,86,0.28);
+  --purple: #112D5A;
+  --purple-dim: rgba(17,45,90,0.14);
+  --purple-glow: rgba(17,45,90,0.26);
+  --gold: #FFB854;
+  --text: #2B2138;
+  --text-muted: #5B4D69;
+  --text-dim: #7C6F8D;
   --radius-sm: 6px;
   --radius: 12px;
   --radius-lg: 20px;
-  --font-display: 'Orbitron', monospace;
-  --font-body: 'Syne', sans-serif;
+  --font-display: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
   --transition: all 0.35s cubic-bezier(0.25,0.46,0.45,0.94);
 }
@@ -53,7 +53,7 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(77,226,255,0.015) 2px, rgba(77,226,255,0.015) 4px);
+  background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(18,43,86,0.015) 2px, rgba(18,43,86,0.015) 4px);
   pointer-events: none;
   z-index: 1000;
 }
@@ -150,18 +150,18 @@ h4, h5, h6 {
 }
 .btn-primary {
   background: var(--cyan);
-  color: var(--bg-void);
+  color: #FFFFFF;
   font-weight: 600;
 }
 .btn-primary:hover {
-  background: #7FFFD4;
+  background: #0F214B;
   transform: translateY(-2px);
   box-shadow: 0 0 40px var(--cyan-glow);
 }
 .btn-ghost {
   background: transparent;
   color: var(--cyan);
-  border: 1px solid var(--border-bright);
+  border: 1px solid rgba(18,43,86,0.45);
 }
 .btn-ghost:hover {
   background: var(--cyan-dim);
@@ -170,7 +170,7 @@ h4, h5, h6 {
 .grid-lines {
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(rgba(77,226,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(193,125,255,0.05) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(18,43,86,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(18,43,86,0.05) 1px, transparent 1px);
   background-size: 60px 60px;
   pointer-events: none;
 }
