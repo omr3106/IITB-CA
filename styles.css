@@ -209,7 +209,7 @@ h4, h5, h6 {
 }
 @keyframes pulse-glow {
   0%,100% { box-shadow: 0 0 20px var(--cyan-glow); }
-  50% { box-shadow: 0 0 50px var(--cyan-glow), 0 0 80px rgba(125,211,252,0.15); }
+  50% { box-shadow: 0 0 50px var(--cyan-glow), 0 0 80px rgba(18,43,86,0.15); }
 }
 @keyframes circuit {
   0% { stroke-dashoffset: 1000; }
@@ -327,7 +327,7 @@ nav.scrolled {
   position: absolute;
   width: 700px;
   height: 700px;
-  background: radial-gradient(circle, rgba(77,226,255,0.22) 0%, rgba(193,125,255,0.14) 45%, transparent 75%);
+  background: radial-gradient(circle, rgba(18,43,86,0.20) 0%, rgba(18,43,86,0.12) 45%, transparent 75%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -344,7 +344,7 @@ nav.scrolled {
   gap: 10px;
   padding: 8px 20px;
   border: 1px solid var(--border-bright);
-  background: rgba(77,226,255,0.12);
+  background: rgba(18,43,86,0.12);
   font-family: var(--font-mono);
   font-size: 0.65rem;
   letter-spacing: 0.22em;
@@ -532,7 +532,7 @@ nav.scrolled {
 .about-frame-inner {
   width: 100%;
   height: 100%;
-  background: radial-gradient(ellipse at 30% 20%, rgba(125,211,252,0.15) 0%, transparent 60%), radial-gradient(ellipse at 70% 80%, rgba(244,114,212,0.12) 0%, transparent 60%), var(--bg-surface);
+  background: radial-gradient(ellipse at 30% 20%, rgba(18,43,86,0.12) 0%, transparent 60%), radial-gradient(ellipse at 70% 80%, rgba(18,43,86,0.08) 0%, transparent 60%), var(--bg-surface);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -758,7 +758,7 @@ nav.scrolled {
 .speaker-social-btn {
   width: 32px;
   height: 32px;
-  background: rgba(125,211,252,0.2);
+  background: rgba(18,43,86,0.15);
   border: 1px solid var(--border-bright);
   display: flex;
   align-items: center;
@@ -865,7 +865,7 @@ nav.scrolled {
   position: relative;
 }
 .schedule-item:hover {
-  background: rgba(125,211,252,0.03);
+  background: rgba(18,43,86,0.03);
 }
 .schedule-item:last-child {
   border-bottom: none;
@@ -908,7 +908,7 @@ nav.scrolled {
   display: inline-block;
   padding: 2px 10px;
   background: var(--purple-dim);
-  border: 1px solid rgba(244,114,212,0.3);
+  border: 1px solid rgba(18,43,86,0.2);
   font-family: var(--font-mono);
   font-size: 0.58rem;
   letter-spacing: 0.1em;
@@ -1000,14 +1000,14 @@ nav.scrolled {
   transition: var(--transition);
 }
 .ticket-card:hover {
-  border-color: rgba(125,211,252,0.3);
+  border-color: rgba(18,43,86,0.2);
   transform: translateY(-6px);
   box-shadow: 0 20px 60px rgba(0,0,0,0.35);
 }
 .ticket-card.featured {
   border-color: var(--cyan);
-  background: linear-gradient(135deg, rgba(125,211,252,0.08) 0%, var(--bg-surface) 100%);
-  box-shadow: 0 0 0 1px var(--cyan), 0 0 60px rgba(125,211,252,0.12);
+  background: linear-gradient(135deg, rgba(18,43,86,0.08) 0%, var(--bg-surface) 100%);
+  box-shadow: 0 0 0 1px var(--cyan), 0 0 60px rgba(18,43,86,0.12);
 }
 .ticket-badge {
   position: absolute;
@@ -1103,7 +1103,7 @@ nav.scrolled {
   transition: var(--transition);
 }
 .testimonial-card:hover {
-  border-color: rgba(244,114,212,0.3);
+  border-color: rgba(18,43,86,0.2);
   transform: translateY(-4px);
 }
 .testimonial-quote {
@@ -1272,7 +1272,7 @@ nav.scrolled {
   position: absolute;
   width: 800px;
   height: 400px;
-  background: radial-gradient(ellipse, rgba(125,211,252,0.12) 0%, rgba(244,114,212,0.06) 50%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(18,43,86,0.12) 0%, rgba(18,43,86,0.05) 50%, transparent 70%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1316,7 +1316,7 @@ nav.scrolled {
 }
 .register-input:focus {
   border-color: var(--cyan);
-  background: rgba(125,211,252,0.05);
+  background: rgba(18,43,86,0.05);
 }
 .register-input::placeholder {
   color: var(--text-dim);
